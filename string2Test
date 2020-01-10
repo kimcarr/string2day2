@@ -1,0 +1,48 @@
+public class MyProgram
+{
+    public static void main(String[] args)
+    {
+        System.out.println("Randy There? " + randyThere("rowdy"));
+        
+        System.out.println("Repeat the last n characters n times: " + repeatEnd("Kimberlee", 3));
+        
+        System.out.println("Repeat the first n characters, then n-1 and so on: " + repeatFront("Bonckers", 3));
+        
+        System.out.println("Triple each character in the string: " +  tripleChar("dunzo"));
+        
+        
+    }
+    
+   public static boolean randyThere(String str) 
+   {
+        //Return true if the given string contains a "Randy" string, but where the middle "and" can be anything.
+        //randyThere("rowdy") should return true.
+  
+    }
+
+    
+    public static String repeatEnd(String str, int n)
+    {
+        //Given a string and an int n, return a string made of n repetitions of the last n characters of the string. 
+        //You may assume that n is between 0 and the length of the string, inclusive.
+        //repeatEnd("Hello", 2) should return "lolo"
+        //repeatEnd("Hello", 3) should return "llollollo"
+        
+    }
+    
+    public static String repeatFront(String str, int n)
+    {
+        //Given a string and an int n, return a string made of the first n characters of the string, followed by 
+        //the first n-1 characters of the string, and so on. You may assume that n is between 0 and the length 
+        //of the string, inclusive (i.e. n >= 0 and n <= str.length()).
+        
+        
+    }
+    public static String tripleChar(String str)
+    {
+        //Given a string, return a string where for every char in the original, there are three chars.
+        //tripleChar("The") would return "TTThhheee"
+    }
+    
+    
+}
